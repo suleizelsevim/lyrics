@@ -1,0 +1,88 @@
+html {
+    background: url("https://assets.codepen.io/6060109/lyric-bg-2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  body {
+    background: url("https://assets.codepen.io/6060109/music.png") no-repeat bottom left;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+  }
+  
+  /* [1] 
+  Add top and bottom margin 10px */
+  h1 {
+    margin-top:0px;
+    margin-bottom:10px;
+    font-size: 48px;
+  }
+  
+  /* [2] 
+  Remove default margin on h4 */
+  h4 {
+    margin:0px;
+    font-size: 36px;
+    font-weight: 400;
+    opacity: 0.66;
+  }
+  
+  .inner-container {
+    position:absolute;
+    left:50px;
+    top:40px;
+    height:75%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+  }
+  .video-container {
+    
+    width: 45%;
+  }
+  
+  
+  .inner-video {
+    margin-top:20px;
+    margin-left: 20%;
+    height:315px;
+    width:81%;
+    box-shadow: 10px 10px 50px rgba(0, 255, 255, 0.35);
+  }
+  
+
+  .lyrics-container {
+    background: rgba(0,0,0,.5);
+    margin:30px;
+    border-radius: 5px;
+    height:100%;
+    width:50%;
+    line-height: 35px;
+    border-style:solid;
+    border-color:white;
+    border-width:1px;
+    overflow-y:scroll;
+    padding:15px;
+    scroll-margin-bottom: 50px;
+    position: absolute;
+    width: 35%;
+    margin-left: 62%;    
+  }
+
+  .lyrics-container ::-webkit-scrollbar{
+    width: 1px;
+    height: 100%;
+    background-color: black;
+  }
+  .lyrics-container ::-webkit-scrollbar-thumb{
+    background-color: black;
+  }
+
+.title{
+  color: rgb(226, 171, 237);
+  text-align: center;
+}
